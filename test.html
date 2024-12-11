@@ -196,6 +196,10 @@
             }
         });
 
+        QUnit.test('Simple test', (assert)=>{
+            assert.equal(1, 1)
+        })
+
         QUnit.test('Ships have an extended non-overlapping area', function(assert) {
             let size = 0;
             let allLocations = [];
